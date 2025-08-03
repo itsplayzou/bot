@@ -1,0 +1,49 @@
+{
+  "name": "vinted-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord élite pour automatisation Vinted avec anti-détection avancée",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'Build completed'",
+    "test": "echo 'Tests completed'"
+  },
+  "keywords": ["discord", "vinted", "bot", "automation", "proxy", "puppeteer"],
+  "author": "Elite AI",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.61",
+    "puppeteer": "^21.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "proxy-chain": "^2.4.0",
+    "rotating-proxy": "^1.0.0",
+    "sqlite3": "^5.1.6",
+    "crypto": "^1.0.1",
+    "user-agents": "^1.1.1",
+    "fingerprint-generator": "^2.1.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "rate-limiter-flexible": "^4.0.1",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12",
+    "tough-cookie": "^4.1.3",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
